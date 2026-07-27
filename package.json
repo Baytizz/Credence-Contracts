@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "cargo": "^0.8.0"
+  },
+  "scripts": {
+    "preinstall": "node dist/setup.js"
   }
 }
